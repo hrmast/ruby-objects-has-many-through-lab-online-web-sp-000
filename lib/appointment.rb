@@ -10,7 +10,7 @@ attr_accessor :date, :patient, :doctor
     @doctor = doctor
     @@all << self
   end
-binding.pry
+
   def self.all
     @@all
   end
